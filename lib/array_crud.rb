@@ -24,21 +24,22 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  array.delete_at{[0]
+  array.delete_at(0)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  retrieve = array.index(index_number)
+  retrieve
 end
 
 def retrieve_first_element_from_array(array)
-  
+  array.index(0)
 end
 
 def retrieve_last_element_from_array(array)
-  
+  array.index(array.length)
 end
 
 def update_element_from_index(array, index_number, element)
-
+  
 end
