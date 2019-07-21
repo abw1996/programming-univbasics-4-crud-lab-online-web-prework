@@ -1,9 +1,11 @@
 def create_an_empty_array
-  
+  arri = []
+  arri
 end
 
 def create_an_array
-  
+  arri = [0,1,2,3,4,5]
+  arri
 end
 
 def add_element_to_end_of_array(array, element)
